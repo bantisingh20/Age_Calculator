@@ -1,0 +1,92 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    background-color: hsl(0, 0%, 86%);
+    background-color: hsl(0, 10%, 70%);
+  }
+  
+  header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  #container {
+    width: min(100%, 430px);
+    background-color: hsl(0, 0%, 86%);
+    padding: 20px;
+    /* height: auto;
+          width: auto; */
+  }
+  
+  .input-value {
+    width: min(100%, 130px);
+    width: 350px;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  #d,
+  #m,
+  #y {
+    height: 20px;
+    width: 65px;
+    padding: auto;
+    text-overflow: none;
+    list-style: none;
+  
+  }
+  
+  label {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 10px;
+  }
+  
+  form {
+    display: flex;
+    gap: 20px;
+  }
+  
+  div {
+    color: black;
+    font-size: 19px;
+  }
+  
+  .a {
+    font-size: 6px;
+  }
+  
+  /* #dmsg, #mmsg, #ymsg{
+          background-color: pink;
+      } */
+  
+  button,
+  h2 {
+    position: relative;
+    left: min(50%, 130px);
+    top: min(20px, 10);
+    text-transform: uppercase;
+    word-spacing: 3px;
+    border-radius: 100%;
+    font-family: Poppins-Italic;
+  }
+  
+  button {
+    left: 150px;
+    top: 10px;
+    background-color: hsl(259, 100%, 65%);
+    border: none;
+  
+  }
